@@ -1,0 +1,867 @@
+﻿total_conqueror_weight = {
+	value = 0
+	add = education_conqueror_weight
+	add = martial_skill_conqueror_weight
+	add = prowess_skill_conqueror_weight
+	add = martial_prowess_conqueror_weight
+	add = traits_conqueror_weight
+	add = congenital_traits_conqueror_weight
+	add = leveled_congenital_traits_conqueror_weight
+	add = physical_traits_conqueror_weight
+	add = leveled_traits_conqueror_weight
+	add = lifestyle_conqueror_weight
+	add = commander_conqueror_weight
+	add = stress_conqueror_weight
+	add = health_conqueror_weight
+	add = prestige_conqueror_weight
+	add = modifier_conqueror_weight
+	add = fame_conqueror_weight
+}
+
+education_conqueror_weight = {
+	value = 0
+	# conquerors cannot have education of less than 3 so can ignore these traits
+	if = {
+		limit = {
+			OR = {
+				has_trait = education_diplomacy_3
+				has_trait = education_martial_3
+				has_trait = education_stewardship_3
+				has_trait = education_intrigue_3
+				has_trait = education_learning_3
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_trait = education_diplomacy_4
+				has_trait = education_martial_4
+				has_trait = education_stewardship_4
+				has_trait = education_intrigue_4
+				has_trait = education_learning_4
+			}
+		}
+		add = 3
+	}
+	if = {
+		limit = {
+			OR = {
+				has_trait = education_diplomacy_5
+				has_trait = education_martial_5
+				has_trait = education_stewardship_5
+				has_trait = education_intrigue_5
+				has_trait = education_learning_5
+			}
+		}
+		add = 5
+	}
+	# apply bonus for martial education
+	if = {
+		limit = {
+			OR = {
+				has_trait = education_martial_3
+				has_trait = education_martial_4
+				has_trait = education_martial_5
+			}
+		}
+		multiply = 1.5
+	}
+}
+
+martial_skill_conqueror_weight = {
+	value = 0
+	if = {
+		limit = {
+			martial >= monumentally_high_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			martial >= extremely_high_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			martial >= very_high_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			martial >= high_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			martial >= decent_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			martial >= medium_skill_rating
+		}
+		add = 1
+	}
+}
+
+prowess_skill_conqueror_weight = {
+	value = 0
+	if = {
+		limit = {
+			prowess >= monumentally_high_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			prowess >= extremely_high_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			prowess >= very_high_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			prowess >= high_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			prowess >= decent_skill_rating
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			prowess >= medium_skill_rating
+		}
+		add = 1
+	}
+}
+
+martial_prowess_conqueror_weight = {
+	value = 0
+	if = {
+		limit = {
+			has_trait = education_martial_prowess_2
+		}
+		add = 0.5
+	}
+	if = {
+		limit = {
+			has_trait = education_martial_prowess_3
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_trait = education_martial_prowess_4
+		}
+		add = 2
+	}
+}
+
+traits_conqueror_weight = {
+	value = 0
+	# brave
+	if = {
+		limit = {
+			has_trait = brave
+		}
+		add = 1.5
+	}
+	# craven
+	if = {
+		limit = {
+			has_trait = craven
+		}
+		subtract = 100
+	}
+	# calm
+	if = {
+		limit = {
+			has_trait = calm
+		}
+		subtract = 0.5
+	}
+	# wrathful
+	if = {
+		limit = {
+			has_trait = wrathful
+		}
+		add = 1
+	}
+	# chaste
+	# lustful
+	# content
+	if = {
+		limit = {
+			has_trait = content
+		}
+		subtract = 100
+	}
+	# ambitious
+	if = {
+		limit = {
+			has_trait = ambitious
+		}
+		add = 2
+	}
+	# diligent
+	# lazy
+	if = {
+		limit = {
+			has_trait = lazy
+		}
+		subtract = 100
+	}
+	# forgiving
+	if = {
+		limit = {
+			has_trait = forgiving
+		}
+		subtract = 1
+	}
+	# vengeful
+	if = {
+		limit = {
+			has_trait = vengeful
+		}
+		add = 0.5
+	}
+	# generous
+	# greedy
+	if = {
+		limit = {
+			has_trait = greedy
+		}
+		add = 1
+	}
+	# gregarious
+	# shy
+	if = {
+		limit = {
+			has_trait = shy
+		}
+		subtract = 1
+	}
+	# honest
+	# deceitful
+	# humble
+	if = {
+		limit = {
+			has_trait = humble
+		}
+		subtract = 1
+	}
+	# arrogant
+	if = {
+		limit = {
+			has_trait = arrogant
+		}
+		add = 1.5
+	}
+	# just
+	# arbitrary
+	# patient
+	# impatient
+	if = {
+		limit = {
+			has_trait = impatient
+		}
+		add = 0.5
+	}
+	# temperate
+	if = {
+		limit = {
+			has_trait = temperate
+		}
+		subtract = 1
+	}
+	# gluttonous
+	# trusting
+	# paranoid
+	if = {
+		limit = {
+			has_trait = paranoid
+		}
+		subtract = 1
+	}
+	# zealous
+	if = {
+		limit = {
+			has_trait = zealous
+		}
+		add = 1
+	}
+	# cynical
+	# compassionate
+	if = {
+		limit = {
+			has_trait = compassionate
+		}
+		subtract = 1
+	}
+	# callous
+	if = {
+		limit = {
+			has_trait = callous
+		}
+		add = 0.5
+	}
+	# sadistic
+	if = {
+		limit = {
+			has_trait = callous
+		}
+		add = 0.5
+	}
+	# fickle
+	if = {
+		limit = {
+			has_trait = fickle
+		}
+		subtract = 1
+	}
+	# stubborn
+	# eccentric
+	if = {
+		limit = {
+			has_trait = eccentric
+		}
+		subtract = 1
+	}
+}
+
+congenital_traits_conqueror_weight = {
+	value = 0
+	# melancholic
+	if = {
+		limit = {
+			has_trait = depressed_genetic
+		}
+		subtract = 0.5
+	}
+	# lunatic
+	if = {
+		limit = {
+			has_trait = lunatic_genetic
+		}
+		subtract = 5
+	}
+	# possessed
+	# fecund
+	# albino
+	if = {
+		limit = {
+			has_trait = albino
+		}
+		add = 0.5
+	}
+	# lisping
+	if = {
+		limit = {
+			has_trait = lisping
+		}
+		subtract = 0.5
+	}
+	# stuttering
+	if = {
+		limit = {
+			has_trait = stuttering
+		}
+		subtract = 0.5
+	}
+	# pure-blooded
+	if = {
+		limit = {
+			has_trait = pure_blooded
+		}
+		add = 0.5
+	}
+	# giant
+	if = {
+		limit = {
+			has_trait = giant
+		}
+		add = 2
+	}
+	# scaly
+	# club-footed
+	if = {
+		limit = {
+			has_trait = clubfooted
+		}
+		subtract = 3
+	}
+	# dwarf
+	if = {
+		limit = {
+			has_trait = dwarf
+		}
+		subtract = 3
+	}
+	# hunchback
+	if = {
+		limit = {
+			has_trait = hunchbacked
+		}
+		subtract = 5
+	}
+	# sterile / infertile
+	# wheezing
+	if = {
+		limit = {
+			has_trait = wheezing
+		}
+		subtract = 2
+	}
+	# spindly
+	if = {
+		limit = {
+			has_trait = spindly
+		}
+		subtract = 1
+	}
+	# bleeder
+	if = {
+		limit = {
+			has_trait = bleeder
+		}
+		subtract = 0.5
+	}
+}
+
+leveled_congenital_traits_conqueror_weight = {
+	value = 0
+	# beauty bad
+	if = {
+		limit = {
+			has_trait = beauty_bad
+		}
+		subtract = 1
+	}
+	# beauty good (level 1 ignored)
+	if = {
+		limit = {
+			OR = {
+				has_trait = beauty_good_3
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_trait = beauty_good_2
+			}
+		}
+		add = 0.5
+	}
+	# physique bad
+	if = {
+		limit = {
+			has_trait = physique_bad
+		}
+		subtract = 100
+	}
+	# physique good
+	if = {
+		limit = {
+			has_trait = physique_good_3
+		}
+		add = 2.5
+	}
+	if = {
+		limit = {
+			OR = {
+				has_trait = physique_good_2
+			}
+		}
+		add = 1.5
+	}
+	if = {
+		limit = {
+			OR = {
+				has_trait = physique_good_1
+			}
+		}
+		add = 0.5
+	}
+	# intellect good
+	# intellect bad
+	if = {
+		limit = {
+			has_trait = intellect_bad
+		}
+		subtract = 100
+	}
+}
+
+physical_traits_conqueror_weight = {
+	value = 0
+	# shrewd
+	if = {
+		limit = {
+			has_trait = shrewd
+		}
+		add = 2
+	}
+	# strong
+	if = {
+		limit = {
+			has_trait = strong
+		}
+		add = 2
+	}
+	# one-eyed
+	if = {
+		limit = {
+			OR = {
+				has_trait = one_eyed
+			}
+		}
+		add = 0.5
+	}
+	# one-legged
+	if = {
+		limit = {
+			OR = {
+				has_trait = one_legged
+			}
+		}
+		subtract = 2
+	}
+	# weak
+	if = {
+		limit = {
+			has_trait = weak
+		}
+		subtract = 2
+	}
+	# dull
+	if = {
+		limit = {
+			has_trait = dull
+		}
+		subtract = 3
+	}
+	# eunuch
+	if = {
+		limit = {
+			has_trait = eunuch
+			has_trait = beardless_eunuch
+		}
+		subtract = 100
+	}
+}
+
+leveled_traits_conqueror_weight = {
+	value = 0
+	# blademaster
+	if = {
+		limit = {
+			has_trait = lifestyle_blademaster
+			has_trait_xp = { trait = lifestyle_blademaster value > 50 }
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			has_trait = lifestyle_blademaster
+			has_trait_xp = { trait = lifestyle_blademaster value <= 50 }
+		}
+		add = 1
+	}
+	# scarred
+	if = {
+		limit = {
+			has_trait = scarred
+			has_trait_xp = { trait = scarred track = scarred value > 50 }
+		}
+		add = 0.5
+	}
+	if = {
+		limit = {
+			has_trait = scarred
+			has_trait_xp = { trait = scarred track = scarred value <= 50 }
+		}
+		add = 0.25
+	}
+	# hunter
+	if = {
+		limit = {
+			has_trait = lifestyle_hunter
+			OR = {
+				has_trait_xp = { trait = lifestyle_hunter track = hunter value > 50 }
+				has_trait_xp = { trait = lifestyle_hunter track = falconer value > 50 }
+			}
+		}
+		add = 0.5
+	}
+	if = {
+		limit = {
+			has_trait = lifestyle_hunter
+			OR = {
+				has_trait_xp = { trait = lifestyle_hunter track = hunter value <= 50 }
+				has_trait_xp = { trait = lifestyle_hunter track = falconer value <= 50 }
+			}
+		}
+		add = 0.25
+	}
+	# hastiluder
+	if = {
+		limit = {
+			has_trait = tourney_participant
+			OR = {
+				has_trait_xp = { trait = tourney_participant track = foot value > 50 }
+				has_trait_xp = { trait = tourney_participant track = horse value > 50 }
+				has_trait_xp = { trait = tourney_participant track = bow value > 50 }
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_trait = tourney_participant
+			OR = {
+				has_trait_xp = { trait = tourney_participant track = foot value <= 50 }
+				has_trait_xp = { trait = tourney_participant track = horse value <= 50 }
+				has_trait_xp = { trait = tourney_participant track = bow value <= 50 }
+			}
+		}
+		add = 0.5
+	}
+}
+
+lifestyle_conqueror_weight = {
+	# august
+	value = 0
+	if = {
+		limit = {
+			has_trait = august
+		}
+		add = 2
+	}
+	# diplomat
+	if = {
+		limit = {
+			has_trait = diplomat
+		}
+		add = 0.5
+	}
+	# patriarch / matriarch
+	# gallant
+	if = {
+		limit = {
+			has_trait = gallant
+		}
+		add = 1
+	}
+	# overseer
+	if = {
+		limit = {
+			has_trait = overseer
+		}
+		add = 0.5
+	}
+	# strategist
+	if = {
+		limit = {
+			has_trait = strategist
+		}
+		add = 1
+	}
+	# administrator
+	if = {
+		limit = {
+			has_trait = administrator
+		}
+		add = 0.5
+	}
+	# architect
+	# avaricious
+	# schemer
+	# seducer / seductress
+	# torturer
+	# scholar
+	# theologian
+	# whole of body
+	# herbalist
+	# gardener
+}
+
+commander_conqueror_weight = {
+	value = 0
+	# aggressive attacker
+	if = {
+		limit = {
+			has_trait = aggressive_attacker
+		}
+		add = 1
+	}
+	# flexible leader
+	if = {
+		limit = {
+			has_trait = flexible_leader
+		}
+		add = 0.5
+	}
+	# forder
+	# holy warrior
+	if = {
+		limit = {
+			has_trait = holy_warrior
+		}
+		add = 2
+	}
+	# logistician
+	if = {
+		limit = {
+			has_trait = logistician
+		}
+		add = 0.5
+	}
+	# military engineer
+	if = {
+		limit = {
+			has_trait = military_engineer
+		}
+		add = 1
+	}
+	# organizer
+	if = {
+		limit = {
+			has_trait = organizer
+		}
+		add = 0.5
+	}
+	# reaver
+	# organizer
+	if = {
+		limit = {
+			has_trait = organizer
+		}
+		add = 0.5
+	}
+	# unyielding defender
+	# cautious leader
+	# reckless
+	# terrain traits
+}
+
+stress_conqueror_weight = {
+	value = 0
+	# drunkard
+	if = {
+		limit = {
+			has_trait = drunkard
+		}
+		subtract = 0.5
+	}
+	# flagellant
+	# comfort eater
+	# contrite
+	# improvident
+	# inappetetic
+	if = {
+		limit = {
+			has_trait = inappetetic
+		}
+		subtract = 1
+	}
+	# reclusive
+	if = {
+		limit = {
+			has_trait = reclusive
+		}
+		subtract = 3
+	}
+	# irritable
+	if = {
+		limit = {
+			has_trait = irritable
+		}
+		add = 1
+	}
+	# rakish
+	# hashishiyah
+	# profligate
+	# confider
+	# journaller
+	# athletic
+	if = {
+		limit = {
+			has_trait = athletic
+		}
+		add = 1
+	}
+}
+
+health_conqueror_weight = {
+	value = 0
+	if = {
+		limit = {
+			has_trait = maimed
+		}
+		subtract = 5
+	}
+	if = {
+		limit = {
+			OR = {
+				# covers infirm, incapable, wounded 2, wounded 3, contagious diseases
+				is_healthy = no
+				has_trait = inbred
+				has_trait = blind
+			}
+		}
+		subtract = 100
+	}
+}
+
+prestige_conqueror_weight = {
+	value = 0
+	add = prestige_level
+	subtract = 1
+}
+
+modifier_conqueror_weight = {
+	value = 0
+	if = {
+		limit = {
+			OR = {
+				has_character_modifier = bp2_destined_modifier
+				has_character_modifier = bp2_tool_of_fate_modifier
+				has_character_modifier = uniter_and_conqueror_modifier
+			}
+		}
+		add = 10 # big boost for special modifiers
+	}
+}
+
+fame_conqueror_weight = {
+	value = 0
+	if = {
+		limit = {
+			has_trait = peasant_leader
+		}
+		add = 1.5
+	}
+	if = {
+		limit = {
+			has_trait = populist_leader
+		}
+		add = 3
+	}
+}

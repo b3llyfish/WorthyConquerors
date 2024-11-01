@@ -1,0 +1,11 @@
+﻿l_korean:
+ rule_worthy_conquerors_empires: "정복자라는 제국"
+ setting_prevent_empire_conquerors: "예방하다"
+ setting_prevent_empire_conquerors_desc: "제국 타이틀이 정복자가되는 것을 방지하는 캐릭터를 방지하십시오."
+ setting_allow_empire_conquerors: "허용하다"
+ setting_allow_empire_conquerors_desc: "제국 타이틀을 보유한 캐릭터가 정복자가되도록 허용하십시오."
+ rule_worthy_conquerors_struggle: "투쟁 참가자 정복자"
+ setting_prevent_struggle_conquerors: "예방하다"
+ setting_prevent_struggle_conquerors_desc: "투쟁과 관련된 캐릭터가 정복자가되는 것을 방지하십시오."
+ setting_allow_struggle_conquerors: "허용하다"
+ setting_allow_struggle_conquerors_desc: "투쟁과 관련된 캐릭터가 정복자가되도록 허용합니다."

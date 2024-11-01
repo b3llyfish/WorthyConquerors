@@ -1,0 +1,11 @@
+﻿l_english:
+ rule_worthy_conquerors_empires: "Empire Titled Conquerors"
+ setting_prevent_empire_conquerors: "Prevent"
+ setting_prevent_empire_conquerors_desc: "Prevent characters holding empire titles from becoming conquerors."
+ setting_allow_empire_conquerors: "Allow"
+ setting_allow_empire_conquerors_desc: "Allow characters holding empire titles to become conquerors."
+ rule_worthy_conquerors_struggle: "Struggle Participant Conquerors"
+ setting_prevent_struggle_conquerors: "Prevent"
+ setting_prevent_struggle_conquerors_desc: "Prevent characters involved in struggles from becoming conquerors."
+ setting_allow_struggle_conquerors: "Allow"
+ setting_allow_struggle_conquerors_desc: "Allow characters involved in struggles to become conquerors."

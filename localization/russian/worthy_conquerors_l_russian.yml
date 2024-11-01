@@ -1,0 +1,11 @@
+﻿l_russian:
+ rule_worthy_conquerors_empires: "Империя под названием «Завоеватели»"
+ setting_prevent_empire_conquerors: "Предотвращать"
+ setting_prevent_empire_conquerors_desc: "Предотвратить, как персонажи держат названия Империи стать завоевателями."
+ setting_allow_empire_conquerors: "Позволять"
+ setting_allow_empire_conquerors_desc: "Позвольте персонажам, держащим названия империи стать завоевателями."
+ rule_worthy_conquerors_struggle: "Борьба с участниками завоевателей"
+ setting_prevent_struggle_conquerors: "Предотвращать"
+ setting_prevent_struggle_conquerors_desc: "Предотвратить персонажи, вовлеченные в борьбу, становятся завоевателями."
+ setting_allow_struggle_conquerors: "Позволять"
+ setting_allow_struggle_conquerors_desc: "Позвольте персонажам, вовлеченным в борьбу, чтобы стать завоевателями."

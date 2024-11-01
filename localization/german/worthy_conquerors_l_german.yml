@@ -1,0 +1,11 @@
+﻿l_german:
+ rule_worthy_conquerors_empires: "Empire mit dem Titel Conquerors"
+ setting_prevent_empire_conquerors: "Verhindern"
+ setting_prevent_empire_conquerors_desc: "Verhindern Sie, dass Charaktere, die Empire -Titel halten, Eroberer werden."
+ setting_allow_empire_conquerors: "Erlauben"
+ setting_allow_empire_conquerors_desc: "Lassen Sie Charaktere, die Empire -Titel halten, Eroberer werden."
+ rule_worthy_conquerors_struggle: "Kämpfe Teilnehmer Eroberer"
+ setting_prevent_struggle_conquerors: "Verhindern"
+ setting_prevent_struggle_conquerors_desc: "Verhindern Sie, dass Charaktere, die an Kämpfen beteiligt sind, Eroberer werden."
+ setting_allow_struggle_conquerors: "Erlauben"
+ setting_allow_struggle_conquerors_desc: "Erlauben Sie Charaktere, die an Kämpfen beteiligt sind, Eroberer zu werden."

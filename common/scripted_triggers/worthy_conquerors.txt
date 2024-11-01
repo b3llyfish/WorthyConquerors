@@ -1,0 +1,99 @@
+ai_has_conqueror_compatible_personality = {
+	# conquerors need to be somewhat bold and energetic
+	ai_boldness >= 0
+	ai_energy >= 0
+	
+	OR = {
+		ai_boldness >= 30 # courageous conqueror
+		ai_greed >= 30 # conqueror who desires fame/land
+		ai_honor >= 30 # conqueror who inspires their people
+		ai_zeal >= 30 # conqueror who expands for their faith
+	}
+	
+	NOR = { # exclude
+		has_trait = content # content conqueror
+		has_trait = craven # cowardly conqueror
+		has_trait = lazy # lazy conqueror
+		faith = { has_doctrine_parameter = pacifist_opinion_active } # conqueror who believe in pacifism
+		culture = { has_cultural_parameter = reduced_cost_for_conversion_to_pacifist_faith } # conqueror who's culture promotes pacifism
+	}
+	ai_has_conqueror_personality = no
+}
+
+has_good_education = {
+	OR = {
+		has_trait = education_diplomacy_3
+		has_trait = education_diplomacy_4
+		has_trait = education_diplomacy_5
+		has_trait = education_martial_3
+		has_trait = education_martial_4
+		has_trait = education_martial_5
+		has_trait = education_stewardship_3
+		has_trait = education_stewardship_4
+		has_trait = education_stewardship_5
+		has_trait = education_intrigue_3
+		has_trait = education_intrigue_4
+		has_trait = education_intrigue_5
+		has_trait = education_learning_3
+		has_trait = education_learning_4
+		has_trait = education_learning_5
+	}
+}
+
+meets_conqueror_criteria = {
+	NOT = { has_game_rule = no_conquerors_frequency }
+	is_adult = yes
+	is_landed = yes
+	is_independent_ruler = yes
+	highest_held_title_tier >= tier_duchy
+	trigger_if = {
+		limit = {
+			has_game_rule = prevent_empire_conquerors
+		}
+		highest_held_title_tier < tier_empire
+	}
+	trigger_if = {
+		limit = {
+			has_game_rule = prevent_struggle_conquerors
+		}
+		NOT = {
+			any_character_struggle = {
+				involvement = involved
+			}
+		}
+	}
+	age <= 50
+	is_healthy = yes
+	has_good_education = yes
+	ai_has_conqueror_compatible_personality = yes
+	is_at_war = no
+	NOR = {
+		has_title = title:e_mongol_empire
+		has_character_flag = used_to_be_conqueror
+	}
+	trigger_if = {
+		limit = {
+			OR = {
+				has_game_rule = strong_default_conquerors_frequency
+				has_game_rule = strong_few_conquerors_frequency
+				has_game_rule = strong_very_few_conquerors_frequency
+				has_game_rule = strong_many_conquerors_frequency
+			}
+		}
+		sub_realm_size >= 15
+		domain_size >= 4
+		current_military_strength >= 3000
+		gold >= 500
+		age <= 35
+	}
+	OR = {
+		AND = {
+			is_ai = no
+			NOT = { has_game_rule = no_conquerors_bonuses }
+		}
+		AND = {
+			exists = global_var:active_conquerors
+			global_var:active_conquerors < 12
+		}
+	}
+}

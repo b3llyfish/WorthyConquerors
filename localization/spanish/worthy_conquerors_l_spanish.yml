@@ -1,0 +1,11 @@
+﻿l_spanish:
+ rule_worthy_conquerors_empires: "Empire titulado Conquerores"
+ setting_prevent_empire_conquerors: "Prevenir"
+ setting_prevent_empire_conquerors_desc: "Evite que los personajes tengan títulos de Empire se conviertan en conquistadores."
+ setting_allow_empire_conquerors: "Permitir"
+ setting_allow_empire_conquerors_desc: "Permita que los personajes que tengan títulos de Empire se conviertan en conquistadores."
+ rule_worthy_conquerors_struggle: "Conquistadores participantes de lucha"
+ setting_prevent_struggle_conquerors: "Prevenir"
+ setting_prevent_struggle_conquerors_desc: "Evitar a los personajes involucrados en las luchas para convertirse en conquistadores."
+ setting_allow_struggle_conquerors: "Permitir"
+ setting_allow_struggle_conquerors_desc: "Permitir personajes involucrados en luchas para convertirse en conquistadores."

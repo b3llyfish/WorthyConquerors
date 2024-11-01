@@ -1,0 +1,60 @@
+﻿ai_chance_to_become_conqueror_effect = {
+	if = {
+		limit = {
+			meets_conqueror_criteria = yes
+		}
+		random = {
+			chance = {
+				value = total_conqueror_weight
+				
+				# Game rule modifiers
+				
+				# halved
+				if = {
+					limit = {
+						OR = {
+							has_game_rule = few_conquerors_frequency
+							has_game_rule = strong_few_conquerors_frequency
+						}
+					}
+					multiply = 0.5
+				}
+				
+				# minimal
+				if = {
+					limit = {
+						OR = {
+							has_game_rule = very_few_conquerors_frequency
+							has_game_rule = strong_very_few_conquerors_frequency
+						}
+					}
+					multiply = 0.1
+				}
+				
+				# doubled
+				if = {
+					limit = {
+						OR = {
+							has_game_rule = many_conquerors_frequency
+							has_game_rule = strong_many_conquerors_frequency
+						}
+					}
+					multiply = 2
+				}
+			}
+			
+			if = {
+				limit = {
+					is_ai = no
+				}
+				trigger_event = {
+					id = conqueror.0001
+					days = 10
+				}
+			}
+			else = {
+				trigger_event = conqueror.0001
+			}
+		}
+	}
+}

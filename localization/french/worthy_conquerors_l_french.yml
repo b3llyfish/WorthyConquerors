@@ -1,0 +1,11 @@
+﻿l_french:
+ rule_worthy_conquerors_empires: "Empire intitulé Conquérants"
+ setting_prevent_empire_conquerors: "Prévenir"
+ setting_prevent_empire_conquerors_desc: "Empêcher les personnages empêchant les titres d'Empire de devenir des conquérants."
+ setting_allow_empire_conquerors: "Permettre"
+ setting_allow_empire_conquerors_desc: "Permettez aux personnages tenant des titres d'Empire à devenir conquérants."
+ rule_worthy_conquerors_struggle: "Conquérants des participants en lutte"
+ setting_prevent_struggle_conquerors: "Prévenir"
+ setting_prevent_struggle_conquerors_desc: "Empêcher les personnages impliqués dans les difficultés de devenir des conquérants."
+ setting_allow_struggle_conquerors: "Permettre"
+ setting_allow_struggle_conquerors_desc: "Autoriser les personnages impliqués dans des difficultés à devenir des conquérants."

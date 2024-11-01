@@ -1,0 +1,21 @@
+﻿worthy_conquerors_empires = {
+	
+	categories = { difficulty tweaks ai }
+	
+	default = prevent_empire_conquerors
+	
+	prevent_empire_conquerors = {}
+	
+	allow_empire_conquerors = {}
+}
+
+worthy_conquerors_struggle = {
+	
+	categories = { difficulty tweaks ai }
+	
+	default = prevent_struggle_conquerors
+	
+	prevent_struggle_conquerors = {}
+	
+	allow_struggle_conquerors = {}
+}
