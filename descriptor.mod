@@ -1,8 +1,8 @@
 version="1.0.0"
 tags={
 	"Balance"
-	"Events"
+	"Character Focuses"
 }
 name="Worthy Conquerors"
-supported_version="1.13.*"
+supported_version="1.14.*"
 remote_file_id="3357686271"
