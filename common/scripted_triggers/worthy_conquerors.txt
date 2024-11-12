@@ -1,4 +1,4 @@
-ai_has_conqueror_compatible_personality = {
+﻿ai_has_conqueror_compatible_personality = {
 	# conquerors need to be somewhat bold and energetic
 	ai_boldness >= 0
 	ai_energy >= 0
