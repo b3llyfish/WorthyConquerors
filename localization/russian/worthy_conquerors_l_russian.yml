@@ -1,11 +1,23 @@
 ﻿l_russian:
- rule_worthy_conquerors_empires: "Империя под названием «Завоеватели»"
- setting_prevent_empire_conquerors: "Предотвращать"
- setting_prevent_empire_conquerors_desc: "Предотвратить, как персонажи держат названия Империи стать завоевателями."
- setting_allow_empire_conquerors: "Позволять"
- setting_allow_empire_conquerors_desc: "Позвольте персонажам, держащим названия империи стать завоевателями."
- rule_worthy_conquerors_struggle: "Борьба с участниками завоевателей"
- setting_prevent_struggle_conquerors: "Предотвращать"
- setting_prevent_struggle_conquerors_desc: "Предотвратить персонажи, вовлеченные в борьбу, становятся завоевателями."
- setting_allow_struggle_conquerors: "Позволять"
- setting_allow_struggle_conquerors_desc: "Позвольте персонажам, вовлеченным в борьбу, чтобы стать завоевателями."
+ rule_worthy_conquerors_empires: "Достойные завоеватели: Империя под названием «Завоеватели" #NT!
+ setting_prevent_empire_conquerors: "Предотвращать" #NT!
+ setting_prevent_empire_conquerors_desc: "Предотвращение персонажей, держащих названия Империи" #NT!
+ setting_allow_empire_conquerors: "Позволять" #NT!
+ setting_allow_empire_conquerors_desc: "Позвольте персонажам, держащим названия империи стать завоевателями" #NT!
+ rule_worthy_conquerors_struggle: "Достойные завоеватели: завоеватели борьбы" #NT!
+ setting_prevent_struggle_conquerors: "Предотвращать" #NT!
+ setting_prevent_struggle_conquerors_desc: "Предотвратить персонажи, вовлеченные в борьбу, становятся завоевателями" #NT!
+ setting_allow_struggle_conquerors: "Позволять" #NT!
+ setting_allow_struggle_conquerors_desc: "Разрешить персонажам, вовлеченным в борьбу, чтобы стать завоевателями" #NT!
+ rule_worthy_conquerors_eduction_type: "Достойные завоеватели: тип образования" #NT!
+ setting_any_education: "Любой" #NT!
+ setting_any_education_desc: "Черта завоевателя может появиться на персонажах с любым типом образования" #NT!
+ setting_education_martial_only: "Только военный" #NT!
+ setting_education_martial_only_desc: "Черта завоевателя может появиться только на персонажах с боевым образованием" #NT!
+ rule_worthy_conquerors_education_level: "Достойные завоеватели: уровень образования" #NT!
+ setting_two_star_or_higher: "2 звезды или выше" #NT!
+ setting_two_star_or_higher_desc: "Черта завоевателя может появляться только на персонажах с уровнем #Z 2 Star#! или высшего образования" #NT!
+ setting_three_star_or_higher: "3 звезды или выше" #NT!
+ setting_three_star_or_higher_desc: "Черта завоевателя может появляться только на персонажах с уровнем #Z 3 Star#! или высшего образования" #NT!
+ setting_four_star_or_higher: "4 звезды или выше" #NT!
+ setting_four_star_or_higher_desc: "Черта завоевателя может отображаться только на персонажах с уровнем #Z 4 Star#! или высшего образования" #NT!

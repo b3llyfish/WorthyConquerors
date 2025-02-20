@@ -1,0 +1,23 @@
+﻿l_polish:
+ rule_worthy_conquerors_empires: "Warto zdobywcy: imperium zatytułowane zdobywcy" #NT!
+ setting_prevent_empire_conquerors: "Zapobiegać" #NT!
+ setting_prevent_empire_conquerors_desc: "Zapobiegaj, aby postacie zawierają tytuły Empire zostaną zdobywcami" #NT!
+ setting_allow_empire_conquerors: "Umożliwić" #NT!
+ setting_allow_empire_conquerors_desc: "Pozwól, aby postacie trzymające tytuły Empire zostaną zdobywcami" #NT!
+ rule_worthy_conquerors_struggle: "Godni zdobywcy: Uczestnicy walki Zdobywcy" #NT!
+ setting_prevent_struggle_conquerors: "Zapobiegać" #NT!
+ setting_prevent_struggle_conquerors_desc: "Zapobiegaj, aby postacie zaangażowane w walki nie zostali zdobywc" #NT!
+ setting_allow_struggle_conquerors: "Umożliwić" #NT!
+ setting_allow_struggle_conquerors_desc: "Pozwól, aby postacie zaangażowane w walki zostaną zdobywcami" #NT!
+ rule_worthy_conquerors_eduction_type: "Godni zdobywcy: typ edukacji" #NT!
+ setting_any_education: "Każdy" #NT!
+ setting_any_education_desc: "Cecha zdobywcy może pojawić się na postaciach z dowolnym typem edukacji" #NT!
+ setting_education_martial_only: "Tylko walka" #NT!
+ setting_education_martial_only_desc: "Cecha zdobywcy może pojawić się tylko na postaciach z edukacją walki" #NT!
+ rule_worthy_conquerors_education_level: "Godni zdobywcy: poziom wykształcenia" #NT!
+ setting_two_star_or_higher: "2 gwiazdki lub wyższe" #NT!
+ setting_two_star_or_higher_desc: "Cecha zdobywcy może pojawiać się tylko na postaciach z poziomem edukacji #Z 2 lub szkolnictwa wyższego" #NT!
+ setting_three_star_or_higher: "3 gwiazdki lub wyższe" #NT!
+ setting_three_star_or_higher_desc: "Cecha zdobywcy może pojawić się tylko na postaciach z poziomem edukacji #Z 3 lub szkolnictwa wyższego" #NT!
+ setting_four_star_or_higher: "4 gwiazdki lub wyższe" #NT!
+ setting_four_star_or_higher_desc: "Cecha zdobywcy może pojawić się tylko na postaciach z poziomem edukacji #Z 4 lub szkolnictwa wyższego" #NT!

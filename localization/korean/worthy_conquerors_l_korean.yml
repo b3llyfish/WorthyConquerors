@@ -1,11 +1,23 @@
 ﻿l_korean:
- rule_worthy_conquerors_empires: "정복자라는 제국"
- setting_prevent_empire_conquerors: "예방하다"
- setting_prevent_empire_conquerors_desc: "제국 타이틀이 정복자가되는 것을 방지하는 캐릭터를 방지하십시오."
- setting_allow_empire_conquerors: "허용하다"
- setting_allow_empire_conquerors_desc: "제국 타이틀을 보유한 캐릭터가 정복자가되도록 허용하십시오."
- rule_worthy_conquerors_struggle: "투쟁 참가자 정복자"
- setting_prevent_struggle_conquerors: "예방하다"
- setting_prevent_struggle_conquerors_desc: "투쟁과 관련된 캐릭터가 정복자가되는 것을 방지하십시오."
- setting_allow_struggle_conquerors: "허용하다"
- setting_allow_struggle_conquerors_desc: "투쟁과 관련된 캐릭터가 정복자가되도록 허용합니다."
+ rule_worthy_conquerors_empires: "합당한 정복자 : 정복자라는 제목" #NT!
+ setting_prevent_empire_conquerors: "예방하다" #NT!
+ setting_prevent_empire_conquerors_desc: "제국 타이틀이 정복자가되는 것을 방지하는 캐릭터를 방지하십시오" #NT!
+ setting_allow_empire_conquerors: "허용하다" #NT!
+ setting_allow_empire_conquerors_desc: "제국 타이틀을 보유한 캐릭터가 정복자가되도록 허용하십시오" #NT!
+ rule_worthy_conquerors_struggle: "합당한 정복자 : 투쟁 참가자 정복자" #NT!
+ setting_prevent_struggle_conquerors: "예방하다" #NT!
+ setting_prevent_struggle_conquerors_desc: "투쟁과 관련된 캐릭터가 정복자가되는 것을 방지하십시오" #NT!
+ setting_allow_struggle_conquerors: "허용하다" #NT!
+ setting_allow_struggle_conquerors_desc: "투쟁과 관련된 캐릭터가 정복자가되도록 허용합니다" #NT!
+ rule_worthy_conquerors_eduction_type: "합당한 정복자 : 교육 유형" #NT!
+ setting_any_education: "어느" #NT!
+ setting_any_education_desc: "정복자 특성은 모든 교육 유형의 캐릭터에 나타날 수 있습니다." #NT!
+ setting_education_martial_only: "무술 전용" #NT!
+ setting_education_martial_only_desc: "정복자 특성은 무술 교육의 캐릭터에만 나타날 수 있습니다." #NT!
+ rule_worthy_conquerors_education_level: "합당한 정복자 : 교육 수준" #NT!
+ setting_two_star_or_higher: "별 2 개 이상" #NT!
+ setting_two_star_or_higher_desc: "정복자 특성" #NT!
+ setting_three_star_or_higher: "별 3 개 이상" #NT!
+ setting_three_star_or_higher_desc: "정복자 특성" #NT!
+ setting_four_star_or_higher: "별 4 개 이상" #NT!
+ setting_four_star_or_higher_desc: "정복자 특성은 #Z 4 Star#! 이상의 캐릭터에만 나타날 수 있습니다." #NT!

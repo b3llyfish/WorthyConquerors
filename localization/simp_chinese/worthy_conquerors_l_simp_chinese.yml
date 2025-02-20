@@ -1,11 +1,23 @@
 ﻿l_simp_chinese:
- rule_worthy_conquerors_empires: "帝国标题为征服者"
- setting_prevent_empire_conquerors: "防止"
- setting_prevent_empire_conquerors_desc: "防止角色持有帝国头衔成为征服者。"
- setting_allow_empire_conquerors: "允许"
- setting_allow_empire_conquerors_desc: "允许拥有帝国头衔的角色成为征服者。"
- rule_worthy_conquerors_struggle: "挣扎的参与者征服者"
- setting_prevent_struggle_conquerors: "防止"
- setting_prevent_struggle_conquerors_desc: "防止参与斗争的角色成为征服者。"
- setting_allow_struggle_conquerors: "允许"
- setting_allow_struggle_conquerors_desc: "允许参与挣扎的角色成为征服者。"
+ rule_worthy_conquerors_empires: "值得的征服者：帝国名为征服者" #NT!
+ setting_prevent_empire_conquerors: "防止" #NT!
+ setting_prevent_empire_conquerors_desc: "防止角色持有帝国头衔成为征服者" #NT!
+ setting_allow_empire_conquerors: "允许" #NT!
+ setting_allow_empire_conquerors_desc: "允许拥有帝国头衔的角色成为征服者" #NT!
+ rule_worthy_conquerors_struggle: "值得征服者：挣扎的参与者征服者" #NT!
+ setting_prevent_struggle_conquerors: "防止" #NT!
+ setting_prevent_struggle_conquerors_desc: "防止参与斗争的角色成为征服者" #NT!
+ setting_allow_struggle_conquerors: "允许" #NT!
+ setting_allow_struggle_conquerors_desc: "允许参与挣扎的角色成为征服者" #NT!
+ rule_worthy_conquerors_eduction_type: "值得征服者：教育类型" #NT!
+ setting_any_education: "任何" #NT!
+ setting_any_education_desc: "征服者特质可以出现在任何教育类型的角色上" #NT!
+ setting_education_martial_only: "仅武术" #NT!
+ setting_education_martial_only_desc: "征服者特质只能出现在武术的角色上" #NT!
+ rule_worthy_conquerors_education_level: "值得征服者：教育水平" #NT!
+ setting_two_star_or_higher: "2星或更高" #NT!
+ setting_two_star_or_higher_desc: "征服者特质只能出现在具有#Z2star#!或高等教育水平的角色上" #NT!
+ setting_three_star_or_higher: "3星或更高" #NT!
+ setting_three_star_or_higher_desc: "征服者特征只能出现在具有#Z3star#!或高等教育水平的角色上" #NT!
+ setting_four_star_or_higher: "4星或更高" #NT!
+ setting_four_star_or_higher_desc: "征服者特质只能出现在具有#Z4Star#!或高等教育水平的字符上" #NT!

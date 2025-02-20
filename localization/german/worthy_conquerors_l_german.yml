@@ -1,11 +1,23 @@
 ﻿l_german:
- rule_worthy_conquerors_empires: "Empire mit dem Titel Conquerors"
- setting_prevent_empire_conquerors: "Verhindern"
- setting_prevent_empire_conquerors_desc: "Verhindern Sie, dass Charaktere, die Empire -Titel halten, Eroberer werden."
- setting_allow_empire_conquerors: "Erlauben"
- setting_allow_empire_conquerors_desc: "Lassen Sie Charaktere, die Empire -Titel halten, Eroberer werden."
- rule_worthy_conquerors_struggle: "Kämpfe Teilnehmer Eroberer"
- setting_prevent_struggle_conquerors: "Verhindern"
- setting_prevent_struggle_conquerors_desc: "Verhindern Sie, dass Charaktere, die an Kämpfen beteiligt sind, Eroberer werden."
- setting_allow_struggle_conquerors: "Erlauben"
- setting_allow_struggle_conquerors_desc: "Erlauben Sie Charaktere, die an Kämpfen beteiligt sind, Eroberer zu werden."
+ rule_worthy_conquerors_empires: "Würdige Eroberer: Empire mit dem Titel "Eroberer"" #NT!
+ setting_prevent_empire_conquerors: "Verhindern" #NT!
+ setting_prevent_empire_conquerors_desc: "Verhindern Sie, dass Charaktere, die Empire -Titel halten" #NT!
+ setting_allow_empire_conquerors: "Erlauben" #NT!
+ setting_allow_empire_conquerors_desc: "Lassen Sie Charaktere, die Empire -Titel halten, Eroberer werden" #NT!
+ rule_worthy_conquerors_struggle: "Würdige Eroberer: Kämpfe Teilnehmer Eroberer" #NT!
+ setting_prevent_struggle_conquerors: "Verhindern" #NT!
+ setting_prevent_struggle_conquerors_desc: "Verhindern, dass Charaktere, die an Kämpfen beteiligt sind, Eroberer werden" #NT!
+ setting_allow_struggle_conquerors: "Erlauben" #NT!
+ setting_allow_struggle_conquerors_desc: "Erlauben Sie Charaktere, die an Kämpfen beteiligt sind, Eroberer zu werden" #NT!
+ rule_worthy_conquerors_eduction_type: "Würdige Eroberer: Bildungsart" #NT!
+ setting_any_education: "Beliebig" #NT!
+ setting_any_education_desc: "Das Eroberer -Merkmal kann auf Charakteren mit jedem Bildungsart erscheinen" #NT!
+ setting_education_martial_only: "Nur kriegerisch" #NT!
+ setting_education_martial_only_desc: "Eroberer -Merkmal kann nur auf Charakteren mit Kampferziehung auftreten" #NT!
+ rule_worthy_conquerors_education_level: "Würdige Eroberer: Bildungsniveau" #NT!
+ setting_two_star_or_higher: "2 Sterne oder höher" #NT!
+ setting_two_star_or_higher_desc: "Das Eroberer -Merkmal kann nur auf Zeichen mit einem #Z 2 Sterne oder Hochschulbildung erscheinen" #NT!
+ setting_three_star_or_higher: "3 Sterne oder höher" #NT!
+ setting_three_star_or_higher_desc: "Das Eroberer -Merkmal kann nur auf Zeichen mit einem #Z 3 Sterne oder Hochschulbildung erscheinen" #NT!
+ setting_four_star_or_higher: "4 Sterne oder höher" #NT!
+ setting_four_star_or_higher_desc: "Das Eroberer -Merkmal kann nur auf Zeichen mit einem #Z 4 Sterne oder Hochschulbildung erscheinen" #NT!

@@ -1,11 +1,23 @@
 ﻿l_spanish:
- rule_worthy_conquerors_empires: "Empire titulado Conquerores"
- setting_prevent_empire_conquerors: "Prevenir"
- setting_prevent_empire_conquerors_desc: "Evite que los personajes tengan títulos de Empire se conviertan en conquistadores."
- setting_allow_empire_conquerors: "Permitir"
- setting_allow_empire_conquerors_desc: "Permita que los personajes que tengan títulos de Empire se conviertan en conquistadores."
- rule_worthy_conquerors_struggle: "Conquistadores participantes de lucha"
- setting_prevent_struggle_conquerors: "Prevenir"
- setting_prevent_struggle_conquerors_desc: "Evitar a los personajes involucrados en las luchas para convertirse en conquistadores."
- setting_allow_struggle_conquerors: "Permitir"
- setting_allow_struggle_conquerors_desc: "Permitir personajes involucrados en luchas para convertirse en conquistadores."
+ rule_worthy_conquerors_empires: "Conquerores dignos: Empire titulado Conquerores" #NT!
+ setting_prevent_empire_conquerors: "Prevenir" #NT!
+ setting_prevent_empire_conquerors_desc: "Evitar que los personajes que tengan títulos de Empire se conviertan en conquistadores" #NT!
+ setting_allow_empire_conquerors: "Permitir" #NT!
+ setting_allow_empire_conquerors_desc: "Permitir que los personajes que tengan títulos de Empire se conviertan en conquistadores" #NT!
+ rule_worthy_conquerors_struggle: "Conquerores dignos: lucha contra los participantes" #NT!
+ setting_prevent_struggle_conquerors: "Prevenir" #NT!
+ setting_prevent_struggle_conquerors_desc: "Evitar a los personajes involucrados en las luchas para convertirse en conquistadores" #NT!
+ setting_allow_struggle_conquerors: "Permitir" #NT!
+ setting_allow_struggle_conquerors_desc: "Permitir personajes involucrados en luchas para convertirse en conquistadores" #NT!
+ rule_worthy_conquerors_eduction_type: "Conquerores dignos: tipo de educación" #NT!
+ setting_any_education: "Cualquier" #NT!
+ setting_any_education_desc: "El rasgo conquistador puede aparecer en personajes con cualquier tipo de educación" #NT!
+ setting_education_martial_only: "Solo marcial" #NT!
+ setting_education_martial_only_desc: "El rasgo conquistador solo puede aparecer en personajes con educación marcial" #NT!
+ rule_worthy_conquerors_education_level: "Conquerores dignos: nivel educativo" #NT!
+ setting_two_star_or_higher: "2 estrellas o más" #NT!
+ setting_two_star_or_higher_desc: "El rasgo conquistador solo puede aparecer en personajes con un nivel de educación superior #Z 2 o superior" #NT!
+ setting_three_star_or_higher: "3 estrellas o más" #NT!
+ setting_three_star_or_higher_desc: "El rasgo conquistador solo puede aparecer en personajes con un nivel de educación superior #Z 3 o superior" #NT!
+ setting_four_star_or_higher: "4 estrellas o más" #NT!
+ setting_four_star_or_higher_desc: "El rasgo conquistador solo puede aparecer en personajes con un nivel de educación superior #Z 4 o de educación superior" #NT!

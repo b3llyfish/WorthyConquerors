@@ -1,11 +1,23 @@
 ﻿l_french:
- rule_worthy_conquerors_empires: "Empire intitulé Conquérants"
- setting_prevent_empire_conquerors: "Prévenir"
- setting_prevent_empire_conquerors_desc: "Empêcher les personnages empêchant les titres d'Empire de devenir des conquérants."
- setting_allow_empire_conquerors: "Permettre"
- setting_allow_empire_conquerors_desc: "Permettez aux personnages tenant des titres d'Empire à devenir conquérants."
- rule_worthy_conquerors_struggle: "Conquérants des participants en lutte"
- setting_prevent_struggle_conquerors: "Prévenir"
- setting_prevent_struggle_conquerors_desc: "Empêcher les personnages impliqués dans les difficultés de devenir des conquérants."
- setting_allow_struggle_conquerors: "Permettre"
- setting_allow_struggle_conquerors_desc: "Autoriser les personnages impliqués dans des difficultés à devenir des conquérants."
+ rule_worthy_conquerors_empires: "Conquérants dignes: Empire intitulé Conquérants" #NT!
+ setting_prevent_empire_conquerors: "Prévenir" #NT!
+ setting_prevent_empire_conquerors_desc: "Empêcher les personnages qui empêchent les titres d'Empire de devenir des conquérants" #NT!
+ setting_allow_empire_conquerors: "Permettre" #NT!
+ setting_allow_empire_conquerors_desc: "Autoriser les personnages tenant les titres d'Empire à devenir des conquérants" #NT!
+ rule_worthy_conquerors_struggle: "Conquérants dignes: les conquérants de la lutte" #NT!
+ setting_prevent_struggle_conquerors: "Prévenir" #NT!
+ setting_prevent_struggle_conquerors_desc: "Empêcher les personnages impliqués dans les difficultés de devenir des conquérants" #NT!
+ setting_allow_struggle_conquerors: "Permettre" #NT!
+ setting_allow_struggle_conquerors_desc: "Autoriser les personnages impliqués dans des luttes pour devenir des conquérants" #NT!
+ rule_worthy_conquerors_eduction_type: "Conquérants dignes: type d'éducation" #NT!
+ setting_any_education: "N'importe lequel" #NT!
+ setting_any_education_desc: "Le trait conquérant peut apparaître sur des personnages avec n'importe quel type d'éducation" #NT!
+ setting_education_martial_only: "Martial uniquement" #NT!
+ setting_education_martial_only_desc: "Le trait conquérant ne peut apparaître que sur des personnages ayant une éducation martiale" #NT!
+ rule_worthy_conquerors_education_level: "Conquérants dignes: niveau d'éducation" #NT!
+ setting_two_star_or_higher: "2 étoiles ou plus" #NT!
+ setting_two_star_or_higher_desc: "Le trait conquérant ne peut apparaître que sur des personnages avec un niveau d'enseignement #Z 2 Star#! ou un niveau d'enseignement supérieur" #NT!
+ setting_three_star_or_higher: "3 étoiles ou plus" #NT!
+ setting_three_star_or_higher_desc: "Le trait conquérant ne peut apparaître que sur des personnages avec un niveau d'enseignement #Z 3 Star#! ou un niveau d'enseignement supérieur" #NT!
+ setting_four_star_or_higher: "4 étoiles ou plus" #NT!
+ setting_four_star_or_higher_desc: "Le trait conquérant ne peut apparaître que sur des personnages avec un niveau d'enseignement #Z 4 Star#! ou supérieur" #NT!
