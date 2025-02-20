@@ -21,22 +21,104 @@
 }
 
 has_good_education = {
-	OR = {
-		has_trait = education_diplomacy_3
-		has_trait = education_diplomacy_4
-		has_trait = education_diplomacy_5
+	trigger_if = {
+		limit = {
+			has_game_rule = two_star_or_higher
+		}
+		OR = {
+			has_two_star_education = yes
+			has_three_star_education = yes
+			has_four_star_education = yes
+			has_five_star_education = yes
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			has_game_rule = four_star_or_higher
+		}
+		OR = {
+			has_four_star_education = yes
+			has_five_star_education = yes
+		}
+	}
+	trigger_else = {
+		OR = {
+			has_three_star_education = yes
+			has_four_star_education = yes
+			has_five_star_education = yes
+		}
+	}
+}
+
+has_two_star_education = {
+	trigger_if = {
+		limit = {
+			has_game_rule = education_martial_only
+		}
+		has_trait = education_martial_2
+	}
+	trigger_else = {
+		OR = {
+			has_trait = education_diplomacy_2
+			has_trait = education_martial_2
+			has_trait = education_stewardship_2
+			has_trait = education_intrigue_2
+			has_trait = education_learning_2
+		}
+	}
+}
+
+has_three_star_education = {
+	trigger_if = {
+		limit = {
+			has_game_rule = education_martial_only
+		}
 		has_trait = education_martial_3
+	}
+	trigger_else = {
+		OR = {
+			has_trait = education_diplomacy_3
+			has_trait = education_martial_3
+			has_trait = education_stewardship_3
+			has_trait = education_intrigue_3
+			has_trait = education_learning_3
+		}
+	}
+}
+
+has_four_star_education = {
+	trigger_if = {
+		limit = {
+			has_game_rule = education_martial_only
+		}
 		has_trait = education_martial_4
+	}
+	trigger_else = {
+		OR = {
+			has_trait = education_diplomacy_4
+			has_trait = education_martial_4
+			has_trait = education_stewardship_4
+			has_trait = education_intrigue_4
+			has_trait = education_learning_4
+		}
+	}
+}
+
+has_five_star_education = {
+	trigger_if = {
+		limit = {
+			has_game_rule = education_martial_only
+		}
 		has_trait = education_martial_5
-		has_trait = education_stewardship_3
-		has_trait = education_stewardship_4
-		has_trait = education_stewardship_5
-		has_trait = education_intrigue_3
-		has_trait = education_intrigue_4
-		has_trait = education_intrigue_5
-		has_trait = education_learning_3
-		has_trait = education_learning_4
-		has_trait = education_learning_5
+	}
+	trigger_else = {
+		OR = {
+			has_trait = education_diplomacy_5
+			has_trait = education_martial_5
+			has_trait = education_stewardship_5
+			has_trait = education_intrigue_5
+			has_trait = education_learning_5
+		}
 	}
 }
 

@@ -19,3 +19,27 @@ worthy_conquerors_struggle = {
 	
 	allow_struggle_conquerors = {}
 }
+
+worthy_conquerors_eduction_type = {
+	
+	categories = { difficulty tweaks ai }
+	
+	default = any_education
+	
+	any_education = {}
+	
+	education_martial_only = {}
+}
+
+worthy_conquerors_education_level = {
+	
+	categories = { difficulty tweaks ai }
+	
+	default = three_star_or_higher
+	
+	two_star_or_higher = {}
+	
+	three_star_or_higher = {}
+	
+	four_star_or_higher = {}
+}

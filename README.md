@@ -9,7 +9,7 @@ To be eligible for the conqueror event a character needs to:
 
 * be a healthy, landed, independent adult of age 50 or less (down from 60)
 * have a highest title of duchy or kingdom (see game rules section)
-* have an education of 3 star or higher
+* have an education of 3 star or higher (see game rules section)
 * a conqueror's personality (see below)
 * not to be involved in any struggle (see game rules section)
 * not be at war
