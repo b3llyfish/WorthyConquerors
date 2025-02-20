@@ -64,7 +64,7 @@ Be aware that restricting the education type will drastically reduce the number 
 Determines the required level of education for conquerors.
 
 [i]2 Stars or higher[/i]
-[i]3 Stars or higher[/i]
+[i]3 Stars or higher[/i] - default
 [i]4 Stars or higher[/i]
 
 Be aware that using 4 Stars or higher option will drastically reduce the number of eligible conqueror candidates.
