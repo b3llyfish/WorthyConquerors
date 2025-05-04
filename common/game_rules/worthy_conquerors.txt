@@ -1,6 +1,6 @@
-﻿worthy_conquerors_empires = {
+﻿﻿worthy_conquerors_empires = {
 	
-	categories = { difficulty tweaks ai }
+	categories = { worthy_conquerors difficulty tweaks ai }
 	
 	default = prevent_empire_conquerors
 	
@@ -11,7 +11,7 @@
 
 worthy_conquerors_struggle = {
 	
-	categories = { difficulty tweaks ai }
+	categories = { worthy_conquerors difficulty tweaks ai }
 	
 	default = prevent_struggle_conquerors
 	
@@ -22,7 +22,7 @@ worthy_conquerors_struggle = {
 
 worthy_conquerors_eduction_type = {
 	
-	categories = { difficulty tweaks ai }
+	categories = { worthy_conquerors difficulty tweaks ai }
 	
 	default = any_education
 	
@@ -33,7 +33,7 @@ worthy_conquerors_eduction_type = {
 
 worthy_conquerors_education_level = {
 	
-	categories = { difficulty tweaks ai }
+	categories = { worthy_conquerors difficulty tweaks ai }
 	
 	default = three_star_or_higher
 	
