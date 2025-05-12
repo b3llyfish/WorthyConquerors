@@ -1,4 +1,4 @@
-﻿﻿worthy_conquerors_empires = {
+﻿worthy_conquerors_empires = {
 	
 	categories = { worthy_conquerors difficulty tweaks ai }
 	
