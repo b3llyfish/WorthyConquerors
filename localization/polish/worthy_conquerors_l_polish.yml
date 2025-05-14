@@ -1,5 +1,5 @@
 ﻿l_polish:
- game_rule_category_worthy_conquerors: "Warto zdobywcy"
+ game_rule_category_worthy_conquerors: "Godni zdobywcy" #NT!
  rule_worthy_conquerors_empires: "Warto zdobywcy: imperium zatytułowane zdobywcy" #NT!
  setting_prevent_empire_conquerors: "Zapobiegać" #NT!
  setting_prevent_empire_conquerors_desc: "Zapobiegaj, aby postacie zawierają tytuły Empire zostaną zdobywcami" #NT!
@@ -22,3 +22,8 @@
  setting_three_star_or_higher_desc: "Cecha zdobywcy może pojawić się tylko na postaciach z poziomem edukacji #Z 3 lub szkolnictwa wyższego" #NT!
  setting_four_star_or_higher: "4 gwiazdki lub wyższe" #NT!
  setting_four_star_or_higher_desc: "Cecha zdobywcy może pojawić się tylko na postaciach z poziomem edukacji #Z 4 lub szkolnictwa wyższego" #NT!
+ rule_worthy_conquerors_at_war: "Godni zdobywcy: Spawn podczas wojen" #NT!
+ setting_prevent_conquerors_at_war: "Zapobiegać" #NT!
+ setting_prevent_conquerors_at_war_desc: "Zapobiegaj wyzwalaniu zdarzenia podbicia, gdy postać jest na wojnie" #NT!
+ setting_allow_conquerors_at_war: "Umożliwić" #NT!
+ setting_allow_conquerors_at_war_desc: "Pozwól, aby zdarzenie wyzwalające zdobywcę uruchomić się, gdy postać jest na wojnie" #NT!

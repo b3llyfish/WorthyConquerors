@@ -1,5 +1,5 @@
 ﻿l_spanish:
- game_rule_category_worthy_conquerors: "Conquerores dignos"
+ game_rule_category_worthy_conquerors: "Conquerores dignos" #NT!
  rule_worthy_conquerors_empires: "Conquerores dignos: Empire titulado Conquerores" #NT!
  setting_prevent_empire_conquerors: "Prevenir" #NT!
  setting_prevent_empire_conquerors_desc: "Evitar que los personajes que tengan títulos de Empire se conviertan en conquistadores" #NT!
@@ -22,3 +22,8 @@
  setting_three_star_or_higher_desc: "El rasgo conquistador solo puede aparecer en personajes con un nivel de educación superior #Z 3 o superior" #NT!
  setting_four_star_or_higher: "4 estrellas o más" #NT!
  setting_four_star_or_higher_desc: "El rasgo conquistador solo puede aparecer en personajes con un nivel de educación superior #Z 4 o de educación superior" #NT!
+ rule_worthy_conquerors_at_war: "Conquerores dignos: engendra durante las guerras" #NT!
+ setting_prevent_conquerors_at_war: "Prevenir" #NT!
+ setting_prevent_conquerors_at_war_desc: "Evite que el evento de activación del conquistador se active mientras el personaje está en guerra" #NT!
+ setting_allow_conquerors_at_war: "Permitir" #NT!
+ setting_allow_conquerors_at_war_desc: "Permitir que el evento del activador del conquistador se active mientras el personaje está en guerra" #NT!

@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- game_rule_category_worthy_conquerors: "值得的征服者"
+ game_rule_category_worthy_conquerors: "值得的征服者" #NT!
  rule_worthy_conquerors_empires: "值得的征服者：帝国名为征服者" #NT!
  setting_prevent_empire_conquerors: "防止" #NT!
  setting_prevent_empire_conquerors_desc: "防止角色持有帝国头衔成为征服者" #NT!
@@ -22,3 +22,8 @@
  setting_three_star_or_higher_desc: "征服者特征只能出现在具有#Z3star#!或高等教育水平的角色上" #NT!
  setting_four_star_or_higher: "4星或更高" #NT!
  setting_four_star_or_higher_desc: "征服者特质只能出现在具有#Z4Star#!或高等教育水平的字符上" #NT!
+ rule_worthy_conquerors_at_war: "值得征服者：战争期间产卵" #NT!
+ setting_prevent_conquerors_at_war: "防止" #NT!
+ setting_prevent_conquerors_at_war_desc: "在角色在战争中，防止征服者触发事件触发" #NT!
+ setting_allow_conquerors_at_war: "允许" #NT!
+ setting_allow_conquerors_at_war_desc: "允许征服者触发事件触发，而角色正在战争" #NT!

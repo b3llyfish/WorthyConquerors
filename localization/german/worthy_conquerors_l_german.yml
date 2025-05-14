@@ -1,5 +1,5 @@
 ﻿l_german:
- game_rule_category_worthy_conquerors: "Würdige Eroberer"
+ game_rule_category_worthy_conquerors: "Würdige Eroberer" #NT!
  rule_worthy_conquerors_empires: "Würdige Eroberer: Empire mit dem Titel "Eroberer"" #NT!
  setting_prevent_empire_conquerors: "Verhindern" #NT!
  setting_prevent_empire_conquerors_desc: "Verhindern Sie, dass Charaktere, die Empire -Titel halten" #NT!
@@ -22,3 +22,8 @@
  setting_three_star_or_higher_desc: "Das Eroberer -Merkmal kann nur auf Zeichen mit einem #Z 3 Sterne oder Hochschulbildung erscheinen" #NT!
  setting_four_star_or_higher: "4 Sterne oder höher" #NT!
  setting_four_star_or_higher_desc: "Das Eroberer -Merkmal kann nur auf Zeichen mit einem #Z 4 Sterne oder Hochschulbildung erscheinen" #NT!
+ rule_worthy_conquerors_at_war: "Würdige Eroberer: Laichen während der Kriege" #NT!
+ setting_prevent_conquerors_at_war: "Verhindern" #NT!
+ setting_prevent_conquerors_at_war_desc: "Verhindern" #NT!
+ setting_allow_conquerors_at_war: "Erlauben" #NT!
+ setting_allow_conquerors_at_war_desc: "Lassen Sie das Eroberer -Triggerereignis ausgelöst, während sich der Charakter im Krieg befindet" #NT!

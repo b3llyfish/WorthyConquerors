@@ -1,5 +1,5 @@
 ﻿l_russian:
- game_rule_category_worthy_conquerors: "Достойные завоеватели"
+ game_rule_category_worthy_conquerors: "Достойные завоеватели" #NT!
  rule_worthy_conquerors_empires: "Достойные завоеватели: Империя под названием «Завоеватели" #NT!
  setting_prevent_empire_conquerors: "Предотвращать" #NT!
  setting_prevent_empire_conquerors_desc: "Предотвращение персонажей, держащих названия Империи" #NT!
@@ -22,3 +22,8 @@
  setting_three_star_or_higher_desc: "Черта завоевателя может появляться только на персонажах с уровнем #Z 3 Star#! или высшего образования" #NT!
  setting_four_star_or_higher: "4 звезды или выше" #NT!
  setting_four_star_or_higher_desc: "Черта завоевателя может отображаться только на персонажах с уровнем #Z 4 Star#! или высшего образования" #NT!
+ rule_worthy_conquerors_at_war: "Достойные завоеватели: появляются во время войн" #NT!
+ setting_prevent_conquerors_at_war: "Предотвращать" #NT!
+ setting_prevent_conquerors_at_war_desc: "Предотвратить завоевание события завоевателя, пока персонаж на войне" #NT!
+ setting_allow_conquerors_at_war: "Позволять" #NT!
+ setting_allow_conquerors_at_war_desc: "Позвольте завоеванию триггера, когда персонаж находится на войне." #NT!

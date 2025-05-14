@@ -1,5 +1,5 @@
 ﻿l_korean:
- game_rule_category_worthy_conquerors: "합당한 정복자"
+ game_rule_category_worthy_conquerors: "합당한 정복자" #NT!
  rule_worthy_conquerors_empires: "합당한 정복자 : 정복자라는 제목" #NT!
  setting_prevent_empire_conquerors: "예방하다" #NT!
  setting_prevent_empire_conquerors_desc: "제국 타이틀이 정복자가되는 것을 방지하는 캐릭터를 방지하십시오" #NT!
@@ -22,3 +22,8 @@
  setting_three_star_or_higher_desc: "정복자 특성" #NT!
  setting_four_star_or_higher: "별 4 개 이상" #NT!
  setting_four_star_or_higher_desc: "정복자 특성은 #Z 4 Star#! 이상의 캐릭터에만 나타날 수 있습니다." #NT!
+ rule_worthy_conquerors_at_war: "합당한 정복자 : 전쟁 중에 산란" #NT!
+ setting_prevent_conquerors_at_war: "예방하다" #NT!
+ setting_prevent_conquerors_at_war_desc: "캐릭터가 전쟁중인 동안 정복자 방아쇠 이벤트가 트리거되는 것을 방지합니다." #NT!
+ setting_allow_conquerors_at_war: "허용하다" #NT!
+ setting_allow_conquerors_at_war_desc: "캐릭터가 전쟁중인 동안 정복자 트리거 이벤트를 트리거하도록 허용합니다." #NT!
