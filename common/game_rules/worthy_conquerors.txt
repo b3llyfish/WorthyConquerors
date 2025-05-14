@@ -43,3 +43,14 @@ worthy_conquerors_education_level = {
 	
 	four_star_or_higher = {}
 }
+
+worthy_conquerors_at_war = {
+	
+	categories = { worthy_conquerors difficulty tweaks ai }
+	
+	default = prevent_conquerors_at_war
+	
+	prevent_conquerors_at_war = {}
+	
+	allow_conquerors_at_war = {}
+}

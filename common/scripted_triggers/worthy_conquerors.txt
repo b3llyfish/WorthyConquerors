@@ -148,7 +148,12 @@ meets_conqueror_criteria = {
 	is_healthy = yes
 	has_good_education = yes
 	ai_has_conqueror_compatible_personality = yes
-	is_at_war = no
+	trigger_if = {
+		limit = {
+			has_game_rule = prevent_conquerors_at_war
+		}
+		is_at_war = no
+	}
 	NOR = {
 		has_title = title:e_mongol_empire
 		has_character_flag = used_to_be_conqueror

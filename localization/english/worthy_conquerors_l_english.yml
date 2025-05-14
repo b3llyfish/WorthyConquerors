@@ -22,3 +22,8 @@
  setting_three_star_or_higher_desc: "Conqueror trait can only appear on characters with a #Z 3 star#! or higher education level"
  setting_four_star_or_higher: "4 Stars or higher"
  setting_four_star_or_higher_desc: "Conqueror trait can only appear on characters with a #Z 4 star#! or higher education level"
+ rule_worthy_conquerors_at_war: "Worthy Conquerors: Spawn During Wars"
+ setting_prevent_conquerors_at_war: "Prevent"
+ setting_prevent_conquerors_at_war_desc: "Prevent the conqueror trigger event from triggering whilst the character is at war"
+ setting_allow_conquerors_at_war: "Allow"
+ setting_allow_conquerors_at_war_desc: "Allow the conqueror trigger event to trigger whilst the character is at war"
