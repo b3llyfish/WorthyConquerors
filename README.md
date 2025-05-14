@@ -69,6 +69,12 @@ Determines the required level of education for conquerors.
 
 Be aware that using 4 Stars or higher option will drastically reduce the number of eligible conqueror candidates.
 
+[h3] Spawn During Wars [/h3]
+Determines if the conqueror triggering event is allowed to spawn whilst a character is at war.
+
+[i]Prevent[/i] - stops the event triggering during wars (default)
+[i]Allow[/i] - allows the event to trigger during wars
+
 [h2] Compatibility [/h2]
 This mod overwrites the [b]story_cycle_conqueror_events[/b] file and will not be compatible with any other mod that also changes this file.
 
