@@ -27,3 +27,8 @@
  setting_prevent_conquerors_at_war_desc: "Evite que el evento de activación del conquistador se active mientras el personaje está en guerra" #NT!
  setting_allow_conquerors_at_war: "Permitir" #NT!
  setting_allow_conquerors_at_war_desc: "Permitir que el evento del activador del conquistador se active mientras el personaje está en guerra" #NT!
+ rule_worthy_conquerors_allow_on_game_start: "Conquerores dignos: Permitir rasgo en el inicio del juego" #NT!
+ setting_prevent_conquerors_on_game_start: "Prevenir" #NT!
+ setting_prevent_conquerors_on_game_start_desc: "Evitar ciertos personajes históricos que tienen el rasgo de conquistador en el inicio del juego" #NT!
+ setting_allow_conquerors_on_game_start: "Permitir" #NT!
+ setting_allow_conquerors_on_game_start_desc: "Permitir que ciertos personajes históricos tengan el rasgo conquistador en el juego del juego" #NT!

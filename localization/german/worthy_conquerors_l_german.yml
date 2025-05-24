@@ -27,3 +27,8 @@
  setting_prevent_conquerors_at_war_desc: "Verhindern" #NT!
  setting_allow_conquerors_at_war: "Erlauben" #NT!
  setting_allow_conquerors_at_war_desc: "Lassen Sie das Eroberer -Triggerereignis ausgelöst, während sich der Charakter im Krieg befindet" #NT!
+ rule_worthy_conquerors_allow_on_game_start: "Würdige Eroberer: Merkmal beim Spielstart zulassen" #NT!
+ setting_prevent_conquerors_on_game_start: "Verhindern" #NT!
+ setting_prevent_conquerors_on_game_start_desc: "Verhindern" #NT!
+ setting_allow_conquerors_on_game_start: "Erlauben" #NT!
+ setting_allow_conquerors_on_game_start_desc: "Erlauben Sie bestimmten historischen Charakteren, das Eroberer -Merkmal beim Spielstart zu haben" #NT!

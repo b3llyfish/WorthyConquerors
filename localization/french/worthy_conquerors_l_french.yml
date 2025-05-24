@@ -27,3 +27,8 @@
  setting_prevent_conquerors_at_war_desc: "Empêcher l'événement de déclenchement du conquérant de déclencher pendant que le personnage est en guerre" #NT!
  setting_allow_conquerors_at_war: "Permettre" #NT!
  setting_allow_conquerors_at_war_desc: "Permettez à l'événement de déclenchement du conquérant de déclencher pendant que le personnage est en guerre" #NT!
+ rule_worthy_conquerors_allow_on_game_start: "Dignes conquérants: permettez le trait sur le début du jeu" #NT!
+ setting_prevent_conquerors_on_game_start: "Prévenir" #NT!
+ setting_prevent_conquerors_on_game_start_desc: "Empêcher certains personnages historiques ayant le trait de conquérant sur le début du jeu" #NT!
+ setting_allow_conquerors_on_game_start: "Permettre" #NT!
+ setting_allow_conquerors_on_game_start_desc: "Permettez à certains personnages historiques d'avoir le trait conquérant sur le début du jeu" #NT!

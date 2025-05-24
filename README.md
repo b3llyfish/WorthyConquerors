@@ -64,7 +64,7 @@ Be aware that restricting the education type will drastically reduce the number 
 Determines the required level of education for conquerors.
 
 [i]2 Stars or higher[/i]
-[i]3 Stars or higher[/i] - default
+[i]3 Stars or higher[/i] (default)
 [i]4 Stars or higher[/i]
 
 Be aware that using 4 Stars or higher option will drastically reduce the number of eligible conqueror candidates.
@@ -74,6 +74,12 @@ Determines if the conqueror triggering event is allowed to spawn whilst a charac
 
 [i]Prevent[/i] - stops the event triggering during wars (default)
 [i]Allow[/i] - allows the event to trigger during wars
+
+[h3] Allow Trait On Game Start [/h3]
+Determines if certain historical characters (e.g. Saladin) are allowed to have the conqueror trait on game start.
+
+[i]Prevent[/i] - prevents certain historical characters from having the trait on game start
+[i]Allow[/i] - allows certain historical characters to have the trait on game start (default)
 
 [h2] Compatibility [/h2]
 This mod overwrites the [b]story_cycle_conqueror_events[/b] file and will not be compatible with any other mod that also changes this file.

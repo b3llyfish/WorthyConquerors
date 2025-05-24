@@ -27,3 +27,8 @@
  setting_prevent_conquerors_at_war_desc: "Zapobiegaj wyzwalaniu zdarzenia podbicia, gdy postać jest na wojnie" #NT!
  setting_allow_conquerors_at_war: "Umożliwić" #NT!
  setting_allow_conquerors_at_war_desc: "Pozwól, aby zdarzenie wyzwalające zdobywcę uruchomić się, gdy postać jest na wojnie" #NT!
+ rule_worthy_conquerors_allow_on_game_start: "Godni zdobywcy: Pozwól, aby cecha rozpoczęcia gry" #NT!
+ setting_prevent_conquerors_on_game_start: "Zapobiegać" #NT!
+ setting_prevent_conquerors_on_game_start_desc: "Zapobiegaj niektórym bohaterom historycznym posiadającym cechę zdobywcy podczas rozpoczęcia gry" #NT!
+ setting_allow_conquerors_on_game_start: "Umożliwić" #NT!
+ setting_allow_conquerors_on_game_start_desc: "Pozwól niektórym bohaterom historycznym, aby zdobyć cechę zdobywcy na początku gry" #NT!

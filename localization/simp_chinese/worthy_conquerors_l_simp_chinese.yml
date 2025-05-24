@@ -27,3 +27,8 @@
  setting_prevent_conquerors_at_war_desc: "在角色在战争中，防止征服者触发事件触发" #NT!
  setting_allow_conquerors_at_war: "允许" #NT!
  setting_allow_conquerors_at_war_desc: "允许征服者触发事件触发，而角色正在战争" #NT!
+ rule_worthy_conquerors_allow_on_game_start: "值得征服者：允许比赛中的特质开始" #NT!
+ setting_prevent_conquerors_on_game_start: "防止" #NT!
+ setting_prevent_conquerors_on_game_start_desc: "防止某些具有征服者特征在游戏开始的历史角色" #NT!
+ setting_allow_conquerors_on_game_start: "允许" #NT!
+ setting_allow_conquerors_on_game_start_desc: "允许某些历史角色在游戏开始时具有征服者特征" #NT!

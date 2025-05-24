@@ -27,3 +27,8 @@
  setting_prevent_conquerors_at_war_desc: "Предотвратить завоевание события завоевателя, пока персонаж на войне" #NT!
  setting_allow_conquerors_at_war: "Позволять" #NT!
  setting_allow_conquerors_at_war_desc: "Позвольте завоеванию триггера, когда персонаж находится на войне." #NT!
+ rule_worthy_conquerors_allow_on_game_start: "Достойные завоеватели: разрешить черту на начало игры" #NT!
+ setting_prevent_conquerors_on_game_start: "Предотвращать" #NT!
+ setting_prevent_conquerors_on_game_start_desc: "Предотвратить определенных исторических персонажей, имеющих черту завоевателя в начале игры" #NT!
+ setting_allow_conquerors_on_game_start: "Позволять" #NT!
+ setting_allow_conquerors_on_game_start_desc: "Позвольте определенным историческим персонажам иметь черту завоевателя в начале игры" #NT!
