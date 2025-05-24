@@ -27,3 +27,8 @@
  setting_prevent_conquerors_at_war_desc: "Prevent the conqueror trigger event from triggering whilst the character is at war"
  setting_allow_conquerors_at_war: "Allow"
  setting_allow_conquerors_at_war_desc: "Allow the conqueror trigger event to trigger whilst the character is at war"
+ rule_worthy_conquerors_allow_on_game_start: "Worthy Conquerors: Allow Trait On Game Start"
+ setting_prevent_conquerors_on_game_start: "Prevent"
+ setting_prevent_conquerors_on_game_start_desc: "Prevent certain historical characters having the conqueror trait on game start"
+ setting_allow_conquerors_on_game_start: "Allow"
+ setting_allow_conquerors_on_game_start_desc: "Allow certain historical characters to have the conqueror trait on game start"

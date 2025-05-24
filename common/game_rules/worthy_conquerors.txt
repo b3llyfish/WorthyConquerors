@@ -54,3 +54,14 @@ worthy_conquerors_at_war = {
 	
 	allow_conquerors_at_war = {}
 }
+
+worthy_conquerors_allow_on_game_start = {
+	
+	categories = { worthy_conquerors difficulty tweaks ai }
+	
+	default = allow_conquerors_on_game_start
+	
+	prevent_conquerors_on_game_start = {}
+	
+	allow_conquerors_on_game_start = {}
+}

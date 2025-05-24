@@ -1,0 +1,30 @@
+﻿on_game_start_after_lobby = {
+	on_actions = {
+		allow_conquerors_on_game_start
+	}
+}
+
+allow_conquerors_on_game_start = {
+	effect = {
+		if = {
+			limit = {
+				has_game_rule = prevent_conquerors_on_game_start
+			}
+			every_living_character = {
+				limit = {
+					is_landed = yes
+					has_trait = conqueror
+				}
+				remove_trait = conqueror
+				remove_character_modifier = ai_extreme_conqueror_modifier
+				remove_character_modifier = ai_weak_conqueror_modifier
+				random_owned_story = {
+					limit = {
+						story_type = story_conqueror
+					}
+					end_story = yes
+				}
+			}
+		}
+	}
+}
