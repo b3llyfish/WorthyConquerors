@@ -40,11 +40,12 @@ Instead, the percentage is now influenced by the following character specific it
 Existing game rules related to conquerors still work as normal.
 The following new game rules are added by the mod.
 
-[h3] Empire Title Conquerors [/h3]
-Determines whether characters who hold empire titles are eligible to be conquerors.
+[h3] Title Tier Conquerors [/h3]
+Determines whether characters with certain title tiers are eligible to be conquerors.
 
-[i]Prevent[/i] - stops them from becoming conquerors (default)
-[i]Allow[/i] - allows them to be conquerors
+[i]Prevent Empires[/i] - stops Emperors from becoming conquerors (default)
+[i]Prevent Kingdoms or Higher[/i] - stops Kings or higher from becoming conquerors
+[i]Allow All[/i] - no title tier restrictions to becoming a conqueror
 
 [h3] Struggle Participant Conquerors [/h3]
 Determines whether characters who are involved in a struggle are eligible to be conquerors.

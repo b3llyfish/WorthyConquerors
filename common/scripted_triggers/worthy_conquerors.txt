@@ -136,6 +136,12 @@ meets_conqueror_criteria = {
 	}
 	trigger_if = {
 		limit = {
+			has_game_rule = prevent_kingdoms_or_higher_conquerors
+		}
+		highest_held_title_tier < tier_kingdom
+	}
+	trigger_if = {
+		limit = {
 			has_game_rule = prevent_struggle_conquerors
 		}
 		NOT = {

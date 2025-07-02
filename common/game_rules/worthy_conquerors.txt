@@ -1,4 +1,4 @@
-﻿worthy_conquerors_empires = {
+﻿worthy_title_tier_conquerors = {
 	
 	categories = { worthy_conquerors difficulty tweaks ai }
 	
@@ -6,7 +6,9 @@
 	
 	prevent_empire_conquerors = {}
 	
-	allow_empire_conquerors = {}
+	prevent_kingdoms_or_higher_conquerors = {}
+	
+	allow_all_tiers = {}
 }
 
 worthy_conquerors_struggle = {
