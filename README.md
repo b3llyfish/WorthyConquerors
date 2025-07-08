@@ -90,14 +90,11 @@ This mod overwrites the [b]story_cycle_conqueror_events[/b] file and will not be
 * This mod does not change how inheritance works for the conqueror trait
 
 [h2] Localization [/h2]
-Localization files for all supported languages has been provided by [url=https://github.com/JuryReimis/ModTranslationHelper/blob/master/README.md]ModTranslationHelper[/url].
+German - https://steamcommunity.com/sharedfiles/filedetails/?id=3355568022
 
-Please note that these files are machine translated and most likely will not be 100% accurate. I welcome any modders out
-there to provide language support for this mod.
+If you have a mod that provides localization for Worthy Conquerors please link it in the comments and I'll add it here.
 
 [h2] Bug/Issues [/h2]
 Due to the random nature of this event it is difficult to verify that the check correctly includes/excludes personality combinations.
 If you think a character who received the conqueror trait should not have please let me know and I will investigate.
 Please be aware of the inheritance notes above before doing so.
-
-
