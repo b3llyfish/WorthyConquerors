@@ -1,34 +1,36 @@
 ﻿l_simp_chinese:
- game_rule_category_worthy_conquerors: "值得的征服者" #NT!
- rule_worthy_conquerors_empires: "值得的征服者：帝国名为征服者" #NT!
- setting_prevent_empire_conquerors: "防止" #NT!
- setting_prevent_empire_conquerors_desc: "防止角色持有帝国头衔成为征服者" #NT!
- setting_allow_empire_conquerors: "允许" #NT!
- setting_allow_empire_conquerors_desc: "允许拥有帝国头衔的角色成为征服者" #NT!
- rule_worthy_conquerors_struggle: "值得征服者：挣扎的参与者征服者" #NT!
- setting_prevent_struggle_conquerors: "防止" #NT!
- setting_prevent_struggle_conquerors_desc: "防止参与斗争的角色成为征服者" #NT!
- setting_allow_struggle_conquerors: "允许" #NT!
- setting_allow_struggle_conquerors_desc: "允许参与挣扎的角色成为征服者" #NT!
- rule_worthy_conquerors_eduction_type: "值得征服者：教育类型" #NT!
- setting_any_education: "任何" #NT!
- setting_any_education_desc: "征服者特质可以出现在任何教育类型的角色上" #NT!
- setting_education_martial_only: "仅武术" #NT!
- setting_education_martial_only_desc: "征服者特质只能出现在武术的角色上" #NT!
- rule_worthy_conquerors_education_level: "值得征服者：教育水平" #NT!
- setting_two_star_or_higher: "2星或更高" #NT!
- setting_two_star_or_higher_desc: "征服者特质只能出现在具有#Z2star#!或高等教育水平的角色上" #NT!
- setting_three_star_or_higher: "3星或更高" #NT!
- setting_three_star_or_higher_desc: "征服者特征只能出现在具有#Z3star#!或高等教育水平的角色上" #NT!
- setting_four_star_or_higher: "4星或更高" #NT!
- setting_four_star_or_higher_desc: "征服者特质只能出现在具有#Z4Star#!或高等教育水平的字符上" #NT!
- rule_worthy_conquerors_at_war: "值得征服者：战争期间产卵" #NT!
- setting_prevent_conquerors_at_war: "防止" #NT!
- setting_prevent_conquerors_at_war_desc: "在角色在战争中，防止征服者触发事件触发" #NT!
- setting_allow_conquerors_at_war: "允许" #NT!
- setting_allow_conquerors_at_war_desc: "允许征服者触发事件触发，而角色正在战争" #NT!
- rule_worthy_conquerors_allow_on_game_start: "值得征服者：允许比赛中的特质开始" #NT!
- setting_prevent_conquerors_on_game_start: "防止" #NT!
- setting_prevent_conquerors_on_game_start_desc: "防止某些具有征服者特征在游戏开始的历史角色" #NT!
- setting_allow_conquerors_on_game_start: "允许" #NT!
- setting_allow_conquerors_on_game_start_desc: "允许某些历史角色在游戏开始时具有征服者特征" #NT!
+ game_rule_category_worthy_conquerors: "Worthy Conquerors" #NT!
+ rule_worthy_title_tier_conquerors: "Worthy Conquerors: Title Tier Conquerors" #NT!
+ setting_prevent_empire_conquerors: "Prevent Empires" #NT!
+ setting_prevent_empire_conquerors_desc: "Prevent characters holding empire titles from becoming conquerors" #NT!
+ setting_prevent_kingdoms_or_higher_conquerors: "Prevent Kingdoms or Higher" #NT!
+ setting_prevent_kingdoms_or_higher_conquerors_desc: "Prevent characters holding kingdom titles from becoming conquerors" #NT!
+ setting_allow_all_tiers: "Allow All" #NT!
+ setting_allow_all_tiers_desc: "Characters with any title tier can become conquerors" #NT!
+ rule_worthy_conquerors_struggle: "Worthy Conquerors: Struggle Participant Conquerors" #NT!
+ setting_prevent_struggle_conquerors: "Prevent" #NT!
+ setting_prevent_struggle_conquerors_desc: "Prevent characters involved in struggles from becoming conquerors" #NT!
+ setting_allow_struggle_conquerors: "Allow" #NT!
+ setting_allow_struggle_conquerors_desc: "Allow characters involved in struggles to become conquerors" #NT!
+ rule_worthy_conquerors_eduction_type: "Worthy Conquerors: Education Type" #NT!
+ setting_any_education: "Any" #NT!
+ setting_any_education_desc: "Conqueror trait can appear on characters with any education type" #NT!
+ setting_education_martial_only: "Martial Only" #NT!
+ setting_education_martial_only_desc: "Conqueror trait can only appear on characters with martial education" #NT!
+ rule_worthy_conquerors_education_level: "Worthy Conquerors: Education Level" #NT!
+ setting_two_star_or_higher: "2 Stars or higher" #NT!
+ setting_two_star_or_higher_desc: "Conqueror trait can only appear on characters with a #Z 2 star#! or higher education level" #NT!
+ setting_three_star_or_higher: "3 Stars or higher" #NT!
+ setting_three_star_or_higher_desc: "Conqueror trait can only appear on characters with a #Z 3 star#! or higher education level" #NT!
+ setting_four_star_or_higher: "4 Stars or higher" #NT!
+ setting_four_star_or_higher_desc: "Conqueror trait can only appear on characters with a #Z 4 star#! or higher education level" #NT!
+ rule_worthy_conquerors_at_war: "Worthy Conquerors: Spawn During Wars" #NT!
+ setting_prevent_conquerors_at_war: "Prevent" #NT!
+ setting_prevent_conquerors_at_war_desc: "Prevent the conqueror trigger event from triggering whilst the character is at war" #NT!
+ setting_allow_conquerors_at_war: "Allow" #NT!
+ setting_allow_conquerors_at_war_desc: "Allow the conqueror trigger event to trigger whilst the character is at war" #NT!
+ rule_worthy_conquerors_allow_on_game_start: "Worthy Conquerors: Allow Trait On Game Start" #NT!
+ setting_prevent_conquerors_on_game_start: "Prevent" #NT!
+ setting_prevent_conquerors_on_game_start_desc: "Prevent certain historical characters having the conqueror trait on game start" #NT!
+ setting_allow_conquerors_on_game_start: "Allow" #NT!
+ setting_allow_conquerors_on_game_start_desc: "Allow certain historical characters to have the conqueror trait on game start" #NT!
