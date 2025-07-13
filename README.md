@@ -91,8 +91,9 @@ This mod overwrites the [b]story_cycle_conqueror_events[/b] file and will not be
 
 [h2] Localization [/h2]
 German - https://steamcommunity.com/sharedfiles/filedetails/?id=3355568022
+Chinese - https://steamcommunity.com/sharedfiles/filedetails/?id=3403925213
 
-If you have a mod that provides localization for Worthy Conquerors please link it in the comments and I'll add it here.
+If you have a mod that provides localization for Worthy Conquerors please link it in the comments, and I'll add it here.
 
 [h2] Bug/Issues [/h2]
 Due to the random nature of this event it is difficult to verify that the check correctly includes/excludes personality combinations.
