@@ -1,5 +1,5 @@
 [h1] Worthy Conquerors [/h1]
-Mod that alters a character's eligibility and percentage chance for the conqueror pulse event. 
+Mod that alters a character's eligibility and percentage chance for the conqueror pulse event.
 The goal of the mod is to make conquerors much more impressive characters skill and trait wise.
 
 [h2] Details [/h2]
@@ -73,17 +73,31 @@ Be aware that using 4 Stars or higher option will drastically reduce the number 
 [h3] Spawn During Wars [/h3]
 Determines if the conqueror triggering event is allowed to spawn whilst a character is at war.
 
-[i]Prevent[/i] - stops the event triggering during wars (default)
 [i]Allow[/i] - allows the event to trigger during wars
+[i]Prevent[/i] - stops the event triggering during wars (default)
 
 [h3] Allow Trait On Game Start [/h3]
 Determines if certain historical characters (e.g. Saladin) are allowed to have the conqueror trait on game start.
 
-[i]Prevent[/i] - prevents certain historical characters from having the trait on game start
 [i]Allow[/i] - allows certain historical characters to have the trait on game start (default)
+[i]Prevent[/i] - prevents certain historical characters from having the trait on game start
+
+[h3] Seljuk Invasion Conqueror [/h3]
+Determines if the leader of the Seljuk Invasion (in the 867 start) should become a conqueror.
+
+[i]Allow[/i] - leader will become a conqueror after winning the initial invasion war (default)
+[i]Prevent[/i] - leader will not become a conqueror after winning the initial invasion war, though my still do so via random chance
+
+[h3] Seljuk Invasion Culture Faith [/h3]
+Determines whether to fix leader of the Seljuk Invasion's culture and faith to match the later start dates.
+
+[i]Fixed[/i] - leader will have Oghuz culture and Maturidi Faith
+[i]Base Game[/i] - leader's culture and faith will be determined using the base game logic
 
 [h2] Compatibility [/h2]
 This mod overwrites the [b]story_cycle_conqueror_events[/b] file and will not be compatible with any other mod that also changes this file.
+
+It also overwrites the Seljuk Invasion event and effect.
 
 [h2] Other Notes [/h2]
 * Conquerors who exist on game start do not need to pass the eligibility check

@@ -67,3 +67,25 @@ worthy_conquerors_allow_on_game_start = {
 	
 	allow_conquerors_on_game_start = {}
 }
+
+worthy_conquerors_seljuk = {
+	
+	categories = { worthy_conquerors difficulty tweaks ai }
+	
+	default = seljuk_as_conqueror
+	
+	seljuk_as_conqueror = {}
+	
+	no_seljuk_as_conqueror = {}
+}
+
+worthy_conquerors_seljuk_culture_faith = {
+	
+	categories = { worthy_conquerors difficulty tweaks ai }
+	
+	default = seljuk_culture_faith_fixed
+	
+	seljuk_culture_faith_random = {}
+	
+	seljuk_culture_faith_fixed = {}
+}

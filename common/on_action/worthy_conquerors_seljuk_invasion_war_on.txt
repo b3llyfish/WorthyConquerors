@@ -1,0 +1,24 @@
+﻿on_war_won_attacker = {
+	on_actions = {
+		seljuk_invasion_war_won
+	}
+}
+
+seljuk_invasion_war_won = {
+	effect = {
+		if = {
+			limit = {
+				scope:war = {
+					using_cb = fp3_seljuk_invasion_cb
+				}
+				has_game_rule = seljuk_as_conqueror
+			}
+			scope:attacker = {
+				trigger_event = {
+					id = conqueror.0001
+					days = { 5 31 }
+				}
+			}
+		}
+	}
+}
