@@ -85,11 +85,15 @@ Determines if certain historical characters (e.g. Saladin) are allowed to have t
 [h3] Seljuk Invasion Conqueror [/h3]
 Determines if the leader of the Seljuk Invasion (in the 867 start) should become a conqueror.
 
+Note that using [b]Allow[/b] will disable the event option that peacefully makes the Seljuk's a loyal vassal.
+
 [i]Allow[/i] - leader will become a conqueror after winning the initial invasion war (default)
 [i]Prevent[/i] - leader will not become a conqueror after winning the initial invasion war, though my still do so via random chance
 
 [h3] Seljuk Invasion Culture Faith [/h3]
 Determines whether to fix leader of the Seljuk Invasion's culture and faith to match the later start dates.
+
+Whilst not related to the conqueror trait this rule has been added to avoid situations like 'Orthodox Seljuks'.
 
 [i]Fixed[/i] - leader will have Oghuz culture and Maturidi Faith
 [i]Base Game[/i] - leader's culture and faith will be determined using the base game logic
