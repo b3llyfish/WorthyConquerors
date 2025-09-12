@@ -2,6 +2,11 @@
 Mod that alters a character's eligibility and percentage chance for the conqueror pulse event.
 The goal of the mod is to make conquerors much more impressive characters skill and trait wise.
 
+[h2]Mod Status[/h2]
+This mod is considered complete. I will do my best to ensure compatibility with game version updates.
+
+[b]Please note[/b] that I currently have no intention of buying future CK3 DLCs. If a future DLC breaks this mod I will not be able to fix it.
+
 [h2] Details [/h2]
 
 [h3] Eligibility [/h3]
