@@ -144,12 +144,12 @@ meets_conqueror_criteria = {
 		limit = {
 			has_game_rule = prevent_struggle_conquerors
 		}
-		NOT = {
+		NOR = {
 			any_character_struggle = {
-				OR = {
-					involvement = involved
-					involvement = interloper
-				}
+				involvement = involved
+			}
+			any_character_struggle = {
+				involvement = interloper
 			}
 		}
 	}
