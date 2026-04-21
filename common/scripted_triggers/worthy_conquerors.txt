@@ -164,7 +164,7 @@ meets_conqueror_criteria = {
 		is_at_war = no
 	}
 	NOR = {
-		has_title = title:e_mongol_empire
+		mpo_has_gok_mongol_empire_trigger = yes
 		has_character_flag = used_to_be_conqueror
 	}
 	trigger_if = {
@@ -190,6 +190,11 @@ meets_conqueror_criteria = {
 		AND = {
 			exists = global_var:active_conquerors
 			global_var:active_conquerors < 12
+		}
+	}
+	NOT = {
+		any_owned_story = {
+			story_type = story_take_mandate_of_heaven
 		}
 	}
 }

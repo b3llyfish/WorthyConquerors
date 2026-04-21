@@ -16,6 +16,8 @@
 	add = prestige_conqueror_weight
 	add = modifier_conqueror_weight
 	add = fame_conqueror_weight
+	add = ai_difficulty_conqueror_weight
+	add = player_difficulty_conqueror_weight
 }
 
 education_conqueror_weight = {
@@ -844,6 +846,8 @@ modifier_conqueror_weight = {
 				has_character_modifier = bp2_destined_modifier
 				has_character_modifier = bp2_tool_of_fate_modifier
 				has_character_modifier = uniter_and_conqueror_modifier
+				has_character_modifier = a_cultures_great_defender_modifier
+				has_character_modifier = inspired_defenders_modifier
 			}
 		}
 		add = 10 # big boost for special modifiers
@@ -863,5 +867,41 @@ fame_conqueror_weight = {
 			has_trait = populist_leader
 		}
 		add = 3
+	}
+}
+
+ai_difficulty_conqueror_weight = {
+	value = 0
+	if = {
+		limit = {
+			is_ai = yes
+			has_game_rule = hard_difficulty
+		}
+		add = 10
+	}
+	else_if = {
+		limit = {
+			is_ai = yes
+			has_game_rule = very_hard_difficulty
+		}
+		add = 20
+	}
+}
+
+player_difficulty_conqueror_weight = {
+	value = 0
+	if = {
+		limit = {
+			is_ai = yes
+			has_game_rule = hard_difficulty
+		}
+		add = -10
+	}
+	else_if = {
+		limit = {
+			is_ai = yes
+			has_game_rule = very_hard_difficulty
+		}
+		add = -20
 	}
 }
