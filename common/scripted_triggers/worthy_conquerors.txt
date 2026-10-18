@@ -14,7 +14,7 @@
 		has_trait = content # content conqueror
 		has_trait = craven # cowardly conqueror
 		has_trait = lazy # lazy conqueror
-		faith = { has_doctrine_parameter = pacifist_opinion_active } # conqueror who believe in pacifism
+		rite = { rite_has_tenet = tenet_pacifism } # conqueror who believe in pacifism
 		culture = { has_cultural_parameter = reduced_cost_for_conversion_to_pacifist_faith } # conqueror who's culture promotes pacifism
 	}
 	ai_has_conqueror_personality = no

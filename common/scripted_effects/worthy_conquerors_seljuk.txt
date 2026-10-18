@@ -62,7 +62,8 @@
 	}
 	else = {
 		culture:turkish = { save_scope_as = seljuk_birth_culture }
-		faith:maturidi = { save_scope_as = seljuk_birth_faith }
+		faith:sunni = { save_scope_as = seljuk_birth_faith }
+		rite:hanafi = { save_scope_as = seljuk_birth_rite }
 	}
 	
 	random_county_in_region = {
@@ -87,6 +88,7 @@
 		gender_female_chance = fp3_chance_female_leader
 		culture = scope:seljuk_birth_culture
 		faith = scope:seljuk_birth_faith
+		rite =  scope:seljuk_birth_rite
 		trait = brave
 		trait = ambitious
 		trait = gregarious

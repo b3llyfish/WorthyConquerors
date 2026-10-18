@@ -100,7 +100,7 @@ Determines whether to fix leader of the Seljuk Invasion's culture and faith to m
 
 Whilst not related to the conqueror trait this rule has been added to avoid situations like 'Orthodox Seljuks'.
 
-[i]Fixed[/i] - leader will have Oghuz culture and Maturidi Faith
+[i]Fixed[/i] - leader will have Oghuz culture, Sunni Faith and Hanafi Rite
 [i]Base Game[/i] - leader's culture and faith will be determined using the base game logic
 
 [h2] Compatibility [/h2]
