@@ -325,7 +325,7 @@ traits_conqueror_weight = {
 	# sadistic
 	if = {
 		limit = {
-			has_trait = callous
+			has_trait = sadistic
 		}
 		add = 0.5
 	}
